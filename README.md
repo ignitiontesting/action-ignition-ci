@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Compile and test
         id: ci
-        uses: ignition-tooling/ubuntu-ci-action@master
+        uses: ignitiontesting/ubuntu-ci-action@master
         with:
           codecov-enabled: true
           doxygen-enabled: true
